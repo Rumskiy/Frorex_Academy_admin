@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import {Home} from "./pages/Home";
-import './assets/scss/resets.module.scss'
+import './assets/scss/resets/resets.module.scss'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

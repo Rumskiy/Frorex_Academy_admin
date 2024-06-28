@@ -1,0 +1,15 @@
+@mixin row {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin column {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin img-wrapper {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
